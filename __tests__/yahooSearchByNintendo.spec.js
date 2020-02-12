@@ -14,6 +14,8 @@ describe('Yahoo! JAPAN', () => {
 
     await page.waitForSelector('[id="contents"]');
     await expect(page).toMatch('任天堂ホームページ');
-    await page.screenshot({ path: 'nintendo_de_puppeteer_screenshot.png' });
+    await page.screenshot({
+      path: 'screenshots/nintendo_de_puppeteer_screenshot.png'
+    });
   });
 });
