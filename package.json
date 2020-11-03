@@ -3,7 +3,7 @@
     "@babel/cli": ">=7.12.1",
     "@babel/core": ">=7.12.3",
     "@babel/preset-env": ">=7.12.1",
-    "jest": ">=26.6.1",
+    "jest": ">=26.6.2",
     "jest-puppeteer": ">=4.4.0",
     "puppeteer": ">=5.4.1"
   },
